@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="14" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-24T12:48:11 UTC" name="Suite" finished-at="2025-11-24T12:48:24 UTC" duration-ms="12888">
+    <groups>
+    </groups>
+    <test started-at="2025-11-24T12:48:11 UTC" name="Test" finished-at="2025-11-24T12:48:24 UTC" duration-ms="12888">
+      <class name="com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister@75329a49]" started-at="2025-11-24T12:48:23 UTC" name="setup" finished-at="2025-11-24T12:48:23 UTC" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegesterReqres()[pri:0, instance:com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister@75329a49]" started-at="2025-11-24T12:48:23 UTC" name="testRegesterReqres" finished-at="2025-11-24T12:48:23 UTC" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegesterReqres -->
+      </class> <!-- com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister -->
+      <class name="com.videogamedb.testcase.TC06_CreeateReqres">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC06_CreeateReqres@6d2a209c]" started-at="2025-11-24T12:48:23 UTC" name="setup" finished-at="2025-11-24T12:48:23 UTC" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateReqres()[pri:0, instance:com.videogamedb.testcase.TC06_CreeateReqres@6d2a209c]" started-at="2025-11-24T12:48:23 UTC" name="testCreateReqres" finished-at="2025-11-24T12:48:23 UTC" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateReqres -->
+      </class> <!-- com.videogamedb.testcase.TC06_CreeateReqres -->
+      <class name="com.videogamedb.testcase.TC13_GETResourceList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC13_GETResourceList@7ee955a8]" started-at="2025-11-24T12:48:20 UTC" name="setup" finished-at="2025-11-24T12:48:20 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testResourceList()[pri:0, instance:com.videogamedb.testcase.TC13_GETResourceList@7ee955a8]" started-at="2025-11-24T12:48:20 UTC" name="testResourceList" finished-at="2025-11-24T12:48:21 UTC" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourceList -->
+      </class> <!-- com.videogamedb.testcase.TC13_GETResourceList -->
+      <class name="com.videogamedb.testcase.TC09_POSTLoginReqres">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC09_POSTLoginReqres@12e61fe6]" started-at="2025-11-24T12:48:20 UTC" name="setup" finished-at="2025-11-24T12:48:20 UTC" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginReqres()[pri:0, instance:com.videogamedb.testcase.TC09_POSTLoginReqres@12e61fe6]" started-at="2025-11-24T12:48:20 UTC" name="testLoginReqres" finished-at="2025-11-24T12:48:20 UTC" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginReqres -->
+      </class> <!-- com.videogamedb.testcase.TC09_POSTLoginReqres -->
+      <class name="com.videogamedb.testcase.TC08_POSTRegister">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC08_POSTRegister@51e5fc98]" started-at="2025-11-24T12:48:18 UTC" name="setup" finished-at="2025-11-24T12:48:18 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegesterReqres()[pri:0, instance:com.videogamedb.testcase.TC08_POSTRegister@51e5fc98]" started-at="2025-11-24T12:48:18 UTC" name="testRegesterReqres" finished-at="2025-11-24T12:48:18 UTC" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegesterReqres -->
+      </class> <!-- com.videogamedb.testcase.TC08_POSTRegister -->
+      <class name="com.videogamedb.testcase.TC02_POST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC02_POST@5e316c74]" started-at="2025-11-24T12:48:22 UTC" name="setup" finished-at="2025-11-24T12:48:22 UTC" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postRequest()[pri:0, instance:com.videogamedb.testcase.TC02_POST@5e316c74]" started-at="2025-11-24T12:48:22 UTC" name="postRequest" finished-at="2025-11-24T12:48:23 UTC" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+      </class> <!-- com.videogamedb.testcase.TC02_POST -->
+      <class name="com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin@6ac13091]" started-at="2025-11-24T12:48:22 UTC" name="setup" finished-at="2025-11-24T12:48:22 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUnsuccessfulLogin()[pri:0, instance:com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin@6ac13091]" started-at="2025-11-24T12:48:22 UTC" name="testUnsuccessfulLogin" finished-at="2025-11-24T12:48:22 UTC" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsuccessfulLogin -->
+      </class> <!-- com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin -->
+      <class name="com.videogamedb.testcase.TC14_GETSingleResource">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC14_GETSingleResource@161479c6]" started-at="2025-11-24T12:48:23 UTC" name="setup" finished-at="2025-11-24T12:48:23 UTC" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSinglrResource()[pri:0, instance:com.videogamedb.testcase.TC14_GETSingleResource@161479c6]" started-at="2025-11-24T12:48:23 UTC" name="testSinglrResource" finished-at="2025-11-24T12:48:23 UTC" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinglrResource -->
+      </class> <!-- com.videogamedb.testcase.TC14_GETSingleResource -->
+      <class name="com.videogamedb.testcase.TC05_DELETE">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC05_DELETE@4313f5bc]" started-at="2025-11-24T12:48:23 UTC" name="setup" finished-at="2025-11-24T12:48:23 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDeleteVideoGame()[pri:0, instance:com.videogamedb.testcase.TC05_DELETE@4313f5bc]" started-at="2025-11-24T12:48:23 UTC" name="testDeleteVideoGame" finished-at="2025-11-24T12:48:24 UTC" duration-ms="337" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Video game deleted] but found [[{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10 23:59:59","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25 23:59:59","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20 23:59:59","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10 23:59:59","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18 23:59:59","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05 23:59:59","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11 23:59:59","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20 23:59:59","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23 23:59:59","reviewScore":90,"category":"Driving","rating":"Mature"}]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Video game deleted] but found [[{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10 23:59:59","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25 23:59:59","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20 23:59:59","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10 23:59:59","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18 23:59:59","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05 23:59:59","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11 23:59:59","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20 23:59:59","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23 23:59:59","reviewScore":90,"category":"Driving","rating":"Mature"}]]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.videogamedb.testcase.TC05_DELETE.testDeleteVideoGame(TC05_DELETE.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteVideoGame -->
+      </class> <!-- com.videogamedb.testcase.TC05_DELETE -->
+      <class name="com.videogamedb.testcase.TC03_GETaVideoGame">
+        <test-method is-config="true" signature="name()[pri:0, instance:com.videogamedb.testcase.TC03_GETaVideoGame@56de5251]" started-at="2025-11-24T12:48:11 UTC" name="name" finished-at="2025-11-24T12:48:12 UTC" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="getSpecificId()[pri:0, instance:com.videogamedb.testcase.TC03_GETaVideoGame@56de5251]" started-at="2025-11-24T12:48:12 UTC" name="getSpecificId" finished-at="2025-11-24T12:48:14 UTC" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificId -->
+      </class> <!-- com.videogamedb.testcase.TC03_GETaVideoGame -->
+      <class name="com.videogamedb.testcase.TC04_PUT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC04_PUT@48fa0f47]" started-at="2025-11-24T12:48:21 UTC" name="setup" finished-at="2025-11-24T12:48:21 UTC" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="putRequest()[pri:0, instance:com.videogamedb.testcase.TC04_PUT@48fa0f47]" started-at="2025-11-24T12:48:21 UTC" name="putRequest" finished-at="2025-11-24T12:48:22 UTC" duration-ms="269" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [405]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at com.videogamedb.testcase.TC04_PUT.putRequest(TC04_PUT.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+      </class> <!-- com.videogamedb.testcase.TC04_PUT -->
+      <class name="com.videogamedb.testcase.TC15_SingleResourceNotFound">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC15_SingleResourceNotFound@1ffe63b9]" started-at="2025-11-24T12:48:17 UTC" name="setup" finished-at="2025-11-24T12:48:17 UTC" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSinglrResourceNotFound()[pri:0, instance:com.videogamedb.testcase.TC15_SingleResourceNotFound@1ffe63b9]" started-at="2025-11-24T12:48:17 UTC" name="testSinglrResourceNotFound" finished-at="2025-11-24T12:48:18 UTC" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinglrResourceNotFound -->
+      </class> <!-- com.videogamedb.testcase.TC15_SingleResourceNotFound -->
+      <class name="com.videogamedb.testcase.TC07_GETReqresList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC07_GETReqresList@5dd6264]" started-at="2025-11-24T12:48:17 UTC" name="setup" finished-at="2025-11-24T12:48:17 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetReqresList()[pri:0, instance:com.videogamedb.testcase.TC07_GETReqresList@5dd6264]" started-at="2025-11-24T12:48:17 UTC" name="testGetReqresList" finished-at="2025-11-24T12:48:17 UTC" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetReqresList -->
+      </class> <!-- com.videogamedb.testcase.TC07_GETReqresList -->
+      <class name="com.videogamedb.testcase.TC01_GETVideoGameLIst">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC01_GETVideoGameLIst@1677d1]" started-at="2025-11-24T12:48:21 UTC" name="setup" finished-at="2025-11-24T12:48:21 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getVideoGameList()[pri:0, instance:com.videogamedb.testcase.TC01_GETVideoGameLIst@1677d1]" started-at="2025-11-24T12:48:21 UTC" name="getVideoGameList" finished-at="2025-11-24T12:48:21 UTC" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVideoGameList -->
+      </class> <!-- com.videogamedb.testcase.TC01_GETVideoGameLIst -->
+      <class name="com.videogamedb.testcase.TC11_GETDelayResponse">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogamedb.testcase.TC11_GETDelayResponse@78aab498]" started-at="2025-11-24T12:48:14 UTC" name="setup" finished-at="2025-11-24T12:48:14 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDelayResponse()[pri:0, instance:com.videogamedb.testcase.TC11_GETDelayResponse@78aab498]" started-at="2025-11-24T12:48:14 UTC" name="testDelayResponse" finished-at="2025-11-24T12:48:17 UTC" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelayResponse -->
+      </class> <!-- com.videogamedb.testcase.TC11_GETDelayResponse -->
+      <class name="com.videogamedb.testcase.sample">
+        <test-method signature="post()[pri:0, instance:com.videogamedb.testcase.sample@7c469c48]" started-at="2025-11-24T12:48:18 UTC" name="post" finished-at="2025-11-24T12:48:20 UTC" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- com.videogamedb.testcase.sample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
