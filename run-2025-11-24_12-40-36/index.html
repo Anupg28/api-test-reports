@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 2 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC04_PUT" class="method navigator-link" hash-for-method="putRequest">putRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC05_DELETE" class="method navigator-link" hash-for-method="testDeleteVideoGame">testDeleteVideoGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC03_GETaVideoGame" class="method navigator-link" hash-for-method="getSpecificId">getSpecificId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC01_GETVideoGameLIst" class="method navigator-link" hash-for-method="getVideoGameList">getVideoGameList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.sample" class="method navigator-link" hash-for-method="post">post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC02_POST" class="method navigator-link" hash-for-method="postRequest">postRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC06_CreeateReqres" class="method navigator-link" hash-for-method="testCreateReqres">testCreateReqres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC11_GETDelayResponse" class="method navigator-link" hash-for-method="testDelayResponse">testDelayResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC07_GETReqresList" class="method navigator-link" hash-for-method="testGetReqresList">testGetReqresList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC09_POSTLoginReqres" class="method navigator-link" hash-for-method="testLoginReqres">testLoginReqres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC08_POSTRegister" class="method navigator-link" hash-for-method="testRegesterReqres">testRegesterReqres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister" class="method navigator-link" hash-for-method="testRegesterReqres">testRegesterReqres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC13_GETResourceList" class="method navigator-link" hash-for-method="testResourceList">testResourceList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC14_GETSingleResource" class="method navigator-link" hash-for-method="testSinglrResource">testSinglrResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC15_SingleResourceNotFound" class="method navigator-link" hash-for-method="testSinglrResourceNotFound">testSinglrResourceNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin" class="method navigator-link" hash-for-method="testUnsuccessfulLogin">testUnsuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC04_PUT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="putRequest">
+                  </a> <!-- putRequest -->
+                  <span class="method-name">putRequest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [405]
+	at com.videogamedb.testcase.TC04_PUT.putRequest(TC04_PUT.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC05_DELETE</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteVideoGame">
+                  </a> <!-- testDeleteVideoGame -->
+                  <span class="method-name">testDeleteVideoGame</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Video game deleted	] but found [[{&quot;id&quot;:1,&quot;name&quot;:&quot;Resident Evil 4&quot;,&quot;releaseDate&quot;:&quot;2005-10-01 23:59:59&quot;,&quot;reviewScore&quot;:85,&quot;category&quot;:&quot;Shooter&quot;,&quot;rating&quot;:&quot;Universal&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Gran Turismo 3&quot;,&quot;releaseDate&quot;:&quot;2001-03-10 23:59:59&quot;,&quot;reviewScore&quot;:91,&quot;category&quot;:&quot;Driving&quot;,&quot;rating&quot;:&quot;Universal&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Tetris&quot;,&quot;releaseDate&quot;:&quot;1984-06-25 23:59:59&quot;,&quot;reviewScore&quot;:88,&quot;category&quot;:&quot;Puzzle&quot;,&quot;rating&quot;:&quot;Universal&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Super Mario 64&quot;,&quot;releaseDate&quot;:&quot;1996-10-20 23:59:59&quot;,&quot;reviewScore&quot;:90,&quot;category&quot;:&quot;Platform&quot;,&quot;rating&quot;:&quot;Universal&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;The Legend of Zelda: Ocarina of Time&quot;,&quot;releaseDate&quot;:&quot;1998-12-10 23:59:59&quot;,&quot;reviewScore&quot;:93,&quot;category&quot;:&quot;Adventure&quot;,&quot;rating&quot;:&quot;PG-13&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Doom&quot;,&quot;releaseDate&quot;:&quot;1993-02-18 23:59:59&quot;,&quot;reviewScore&quot;:81,&quot;category&quot;:&quot;Shooter&quot;,&quot;rating&quot;:&quot;Mature&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Minecraft&quot;,&quot;releaseDate&quot;:&quot;2011-12-05 23:59:59&quot;,&quot;reviewScore&quot;:77,&quot;category&quot;:&quot;Puzzle&quot;,&quot;rating&quot;:&quot;Universal&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;SimCity 2000&quot;,&quot;releaseDate&quot;:&quot;1994-09-11 23:59:59&quot;,&quot;reviewScore&quot;:88,&quot;category&quot;:&quot;Strategy&quot;,&quot;rating&quot;:&quot;Universal&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Final Fantasy VII&quot;,&quot;releaseDate&quot;:&quot;1997-08-20 23:59:59&quot;,&quot;reviewScore&quot;:97,&quot;category&quot;:&quot;RPG&quot;,&quot;rating&quot;:&quot;PG-13&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Grand Theft Auto III&quot;,&quot;releaseDate&quot;:&quot;2001-04-23 23:59:59&quot;,&quot;reviewScore&quot;:90,&quot;category&quot;:&quot;Driving&quot;,&quot;rating&quot;:&quot;Mature&quot;}]]
+	at com.videogamedb.testcase.TC05_DELETE.testDeleteVideoGame(TC05_DELETE.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.sample</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="post">
+                  </a> <!-- post -->
+                  <span class="method-name">post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC07_GETReqresList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetReqresList">
+                  </a> <!-- testGetReqresList -->
+                  <span class="method-name">testGetReqresList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC08_POSTRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegesterReqres">
+                  </a> <!-- testRegesterReqres -->
+                  <span class="method-name">testRegesterReqres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegesterReqres">
+                  </a> <!-- testRegesterReqres -->
+                  <span class="method-name">testRegesterReqres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC13_GETResourceList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResourceList">
+                  </a> <!-- testResourceList -->
+                  <span class="method-name">testResourceList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC15_SingleResourceNotFound</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSinglrResourceNotFound">
+                  </a> <!-- testSinglrResourceNotFound -->
+                  <span class="method-name">testSinglrResourceNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC03_GETaVideoGame</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSpecificId">
+                  </a> <!-- getSpecificId -->
+                  <span class="method-name">getSpecificId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC14_GETSingleResource</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSinglrResource">
+                  </a> <!-- testSinglrResource -->
+                  <span class="method-name">testSinglrResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC01_GETVideoGameLIst</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getVideoGameList">
+                  </a> <!-- getVideoGameList -->
+                  <span class="method-name">getVideoGameList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnsuccessfulLogin">
+                  </a> <!-- testUnsuccessfulLogin -->
+                  <span class="method-name">testUnsuccessfulLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC09_POSTLoginReqres</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginReqres">
+                  </a> <!-- testLoginReqres -->
+                  <span class="method-name">testLoginReqres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC11_GETDelayResponse</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelayResponse">
+                  </a> <!-- testDelayResponse -->
+                  <span class="method-name">testDelayResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC06_CreeateReqres</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateReqres">
+                  </a> <!-- testCreateReqres -->
+                  <span class="method-name">testCreateReqres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.videogamedb.testcase.TC02_POST</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRequest">
+                  </a> <!-- postRequest -->
+                  <span class="method-name">postRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/runner/work/ApiAutomationCICD/ApiAutomationCICD/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC03_GETaVideoGame&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC11_GETDelayResponse&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC07_GETReqresList&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC15_SingleResourceNotFound&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC08_POSTRegister&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.sample&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC09_POSTLoginReqres&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC13_GETResourceList&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC01_GETVideoGameLIst&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC04_PUT&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC02_POST&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC06_CreeateReqres&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC14_GETSingleResource&quot;/&gt;
+      &lt;class name=&quot;com.videogamedb.testcase.TC05_DELETE&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDelayResponse')
+data.setCell(0, 2, 'com.videogamedb.testcase.TC11_GETDelayResponse')
+data.setCell(0, 3, 3400);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getSpecificId')
+data.setCell(1, 2, 'com.videogamedb.testcase.TC03_GETaVideoGame')
+data.setCell(1, 3, 2062);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'post')
+data.setCell(2, 2, 'com.videogamedb.testcase.sample')
+data.setCell(2, 3, 1769);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRegesterReqres')
+data.setCell(3, 2, 'com.videogamedb.testcase.TC08_POSTRegister')
+data.setCell(3, 3, 852);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getVideoGameList')
+data.setCell(4, 2, 'com.videogamedb.testcase.TC01_GETVideoGameLIst')
+data.setCell(4, 3, 480);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'postRequest')
+data.setCell(5, 2, 'com.videogamedb.testcase.TC02_POST')
+data.setCell(5, 3, 410);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'putRequest')
+data.setCell(6, 2, 'com.videogamedb.testcase.TC04_PUT')
+data.setCell(6, 3, 334);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSinglrResourceNotFound')
+data.setCell(7, 2, 'com.videogamedb.testcase.TC15_SingleResourceNotFound')
+data.setCell(7, 3, 318);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSinglrResource')
+data.setCell(8, 2, 'com.videogamedb.testcase.TC14_GETSingleResource')
+data.setCell(8, 3, 311);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeleteVideoGame')
+data.setCell(9, 2, 'com.videogamedb.testcase.TC05_DELETE')
+data.setCell(9, 3, 306);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testResourceList')
+data.setCell(10, 2, 'com.videogamedb.testcase.TC13_GETResourceList')
+data.setCell(10, 3, 304);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRegesterReqres')
+data.setCell(11, 2, 'com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister')
+data.setCell(11, 3, 301);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUnsuccessfulLogin')
+data.setCell(12, 2, 'com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin')
+data.setCell(12, 3, 179);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginReqres')
+data.setCell(13, 2, 'com.videogamedb.testcase.TC09_POSTLoginReqres')
+data.setCell(13, 3, 171);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCreateReqres')
+data.setCell(14, 2, 'com.videogamedb.testcase.TC06_CreeateReqres')
+data.setCell(14, 3, 169);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGetReqresList')
+data.setCell(15, 2, 'com.videogamedb.testcase.TC07_GETReqresList')
+data.setCell(15, 3, 72);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC03_GETaVideoGame</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">name</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getSpecificId</span>
+                <span class="method-start">920 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC11_GETDelayResponse</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2985 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDelayResponse</span>
+                <span class="method-start">2987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC07_GETReqresList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6388 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetReqresList</span>
+                <span class="method-start">6389 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC15_SingleResourceNotFound</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6462 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSinglrResourceNotFound</span>
+                <span class="method-start">6467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC08_POSTRegister</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6786 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRegesterReqres</span>
+                <span class="method-start">6787 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.sample</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">post</span>
+                <span class="method-start">7643 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC09_POSTLoginReqres</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9413 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginReqres</span>
+                <span class="method-start">9414 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC13_GETResourceList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9585 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testResourceList</span>
+                <span class="method-start">9586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC01_GETVideoGameLIst</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9891 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getVideoGameList</span>
+                <span class="method-start">9892 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC04_PUT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10374 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">putRequest</span>
+                <span class="method-start">10803 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC10_POSTUnsuccessfulLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11141 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUnsuccessfulLogin</span>
+                <span class="method-start">11142 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC02_POST</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11322 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">postRequest</span>
+                <span class="method-start">11745 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC06_CreeateReqres</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12155 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateReqres</span>
+                <span class="method-start">12157 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC12_POSTUnsuccessfulRegister</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12326 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRegesterReqres</span>
+                <span class="method-start">12335 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC14_GETSingleResource</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12637 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSinglrResource</span>
+                <span class="method-start">12638 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.videogamedb.testcase.TC05_DELETE</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12949 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeleteVideoGame</span>
+                <span class="method-start">12951 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
